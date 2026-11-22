@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="km" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSE HUOKAING THARA - About Movies / អំពីផ្នែកភាពយន្ត</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="universe_huokaingthara.jpg">
+</head>
+<body>
+
+    <!-- Holographic Scanline Overlay -->
+    <div id="holo-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="logo-container">
+            <i class="fa-solid fa-film spin-icon"></i>
+            <h1>UNIVERSE HUOKAING THARA <span class="sub-title">អំពីផ្នែកភាពយន្ត / About Movies</span></h1>
+        </div>
+        <div class="controls">
+            <button id="langToggleBtn" class="control-btn">🇰🇭 / EN</button>
+            <button id="themeToggleBtn" class="control-btn"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+
+        <!-- Hero Section -->
+        <section class="hero-card">
+            <div class="badge">🎬 UNIVERSE HUOKAING THARA • FILM DIVISION OVERVIEW</div>
+            <h2 class="km">ចក្ខុវិស័យភាពយន្ត ការផលិត និងរចនាសម្ព័ន្ធដឹកនាំ</h2>
+            <h2 class="en">Cinema Vision, Film Production & Leadership</h2>
+            <p class="km">
+                ស្វែងយល់ពីបេសកកម្មផ្នែកភាពយន្តរបស់ <strong>UNIVERSE HUOKAING THARA Group</strong> ក្រោមការដឹកនាំរបស់ លោក <strong>ហួកាំង ថារ៉ា</strong> (ស្ថាបនិក និងប្រធានផ្នែកសន្តិសុខសាយប័រ និងទីផ្សារ) លោក <strong>សេង ឆាត</strong> (នាយក) រួមជាមួយការរួមចំណែកពីលោក <strong>ជອນ រតនៈ</strong> និងក្រុមអ្នកសរសេរកូដជំនាញ។
+            </p>
+            <p class="en">
+                Learn about the film mission of <strong>UNIVERSE HUOKAING THARA Group</strong> under Founder <strong>Mr. Huokaing Thara</strong> (Chief of Cybersecurity & Chief of Marketing) and Director <strong>Mr. Seng Chhat</strong>, with contributions from <strong>Mr. Chorn Rothanak</strong> and our elite programmers & developers.
+            </p>
+
+            <!-- Search & Filter Bar -->
+            <div class="search-filter-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="aboutSearch" placeholder="ស្វែងរកព័ត៌មាន... / Search vision, production, leadership, tech...">
+                </div>
+                <div class="filter-pills">
+                    <button class="pill-btn active" data-filter="all">All / ទាំងអស់</button>
+                    <button class="pill-btn" data-filter="vision">Vision & Craft / ចក្ខុវិស័យ</button>
+                    <button class="pill-btn" data-filter="leadership">Leadership / ថ្នាក់ដឹកនាំ</button>
+                    <button class="pill-btn" data-filter="tech">Digital & Tech / បច្ចេកវិទ្យា</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pillars Grid -->
+        <section class="pillars-section">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-compass"></i>
+                <span class="km">សសរស្តម្ភសំខាន់ៗនៃផ្នែកភាពយន្ត (Core Film Pillars)</span>
+                <span class="en">Core Film Pillars</span>
+            </h3>
+
+            <div class="pillars-grid" id="pillarsGrid">
+
+                <!-- Pillar 1 -->
+                <article class="pillar-card featured" data-cat="vision">
+                    <div class="card-top">
+                        <span class="pillar-code">PILLAR 01 • VISION</span>
+                        <span class="status-pill">CORE MISSION</span>
+                    </div>
+                    <h4 class="km">ការនិទានរឿង និងគុណភាពភាពយន្ត</h4>
+                    <h4 class="en">Storytelling & Screen Craft</h4>
+                    <p class="km">ផ្តោតលើសាច់រឿងមនោសញ្ចេតនា កំប្លែង និងអាថ៌កំបាំង ដែលភ្ជាប់ទស្សនិកជនជាមួយការចាក់បញ្ចាំង និងប្រព័ន្ធឌីជីថល។</p>
+                    <p class="en">Focused on engaging drama, comedy, and suspenseful narratives bridging theatrical showcases and digital media.</p>
+                    <button class="inspect-btn"
+                        data-title="Storytelling & Screen Craft / ការនិទានរឿង"
+                        data-scope="Vision & Film Production"
+                        data-detail="Approved by the Production Management Board, the 5 CEOs, and Vice Presidents (Mr. Huo & Mr. B) for multi-channel releases.">
+                        <span class="km">មើលលម្អិត</span> / <span class="en">Inspect Pillar</span>
+                    </button>
+                </article>
+
+                <!-- Pillar 2 -->
+                <article class="pillar-card" data-cat="leadership">
+                    <div class="card-top">
+                        <span class="pillar-code">PILLAR 02 • GOVERNANCE</span>
+                        <span class="status-pill">EXECUTIVE</span>
+                    </div>
+                    <h4 class="km">ការដឹកនាំ និងការរួមចំណែកផលិតកម្ម</h4>
+                    <h4 class="en">Leadership & Creative Contributions</h4>
+                    <p class="km">ដឹកនាំដោយស្ថាបនិក លោក ហួកាំង ថារ៉ា និងនាយក លោក សេង ឆាត រួមទាំងការចូលរួមចំណែកពីលោក ជອນ រតនៈ។</p>
+                    <p class="en">Guided by Founder Mr. Huokaing Thara and Director Mr. Seng Chhat, alongside creative contributions from Mr. Chorn Rothanak.</p>
+                    <button class="inspect-btn"
+                        data-title="Leadership & Creative Contributions / ការដឹកនាំ"
+                        data-scope="Executive & Creative Governance"
+                        data-detail="Unites strategic marketing, cybersecurity protection, and story development across UNIVERSE HUOKAING THARA Group.">
+                        <span class="km">មើលលម្អិត</span> / <span class="en">Inspect Pillar</span>
+                    </button>
+                </article>
+
+                <!-- Pillar 3 -->
+                <article class="pillar-card" data-cat="tech">
+                    <div class="card-top">
+                        <span class="pillar-code">PILLAR 03 • DIGITAL</span>
+                        <span class="status-pill">ELITE DEV</span>
+                    </div>
+                    <h4 class="km">បច្ចេកវិទ្យាគេហទំព័រ និងសន្តិសុខឌីជីថល</h4>
+                    <h4 class="en">Web Architecture & Digital Security</h4>
+                    <p class="km">អភិវឌ្ឍដោយក្រុមអ្នកសរសេរកូដជំនាញ ជាមួយចំណុចប្រទាក់ទ្វីភាសា ខ្មែរ-អង់គ្លេស និងស្តង់ដារសុវត្ថិភាពខ្ពស់។</p>
+                    <p class="en">Built by our elite programmers and developers with bilingual Khmer/English UI, responsive layouts, and security standards.</p>
+                    <button class="inspect-btn"
+                        data-title="Web Architecture & Digital Security / បច្ចេកវិទ្យា"
+                        data-scope="Engineering & Cybersecurity"
+                        data-detail="Delivers modular HTML/CSS/JS portals supporting catalogs, archives, screenings, and interactive spotlights.">
+                        <span class="km">មើលលម្អិត</span> / <span class="en">Inspect Pillar</span>
+                    </button>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pillar Details Modal -->
+    <div id="aboutModal" class="modal-backdrop hidden">
+        <div class="modal-card">
+            <span class="modal-badge">FILM DIVISION BRIEF</span>
+            <h3 id="modalAboutTitle">Pillar Title</h3>
+            <div class="modal-body">
+                <p><strong>Scope:</strong> <span id="modalAboutScope" class="accent-txt"></span></p>
+                <p id="modalAboutDetail" class="modal-detail"></p>
+            </div>
+            <button id="closeAboutModal" class="control-btn full-width">
+                <span class="km">បិទផ្ទាំង</span> / <span class="en">Close</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 UNIVERSE HUOKAING THARA Group. All Rights Reserved. / រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
